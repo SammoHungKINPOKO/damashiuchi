@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org"  lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>TOP | damashiuchi</title>
+  <!--musubiiフレームワークの参照-->
+  <link rel="stylesheet" href="/css/musubii.min.css"/>
+</head>
+<body>
+<section class="section">
+  <div class="inner">
+
+  <!--test message-->
+  <p class="heading is-xxl">
+    <span th:text="${hello}">Hello!</span>
+  </p>
+
+  <!--texts-->
+  <p class="texts">
+    <span class="text is-link-reverse is-primary">
+      now testing.
+    </span>
+  </p>
+
+  <!--end inner-->
+  </div>
+<!--end section-->
+</section>
+</body>
+</html>
