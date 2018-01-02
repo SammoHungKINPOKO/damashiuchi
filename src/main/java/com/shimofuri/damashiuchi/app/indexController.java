@@ -12,12 +12,12 @@ import static org.springframework.web.bind.annotation.RequestMethod.GET;
  */
 @Controller
 @EnableAutoConfiguration
-@RequestMapping("damashiuchi")
+@RequestMapping("")
 public class indexController {
 
     /**
      * TOP画面を表示する（GET）
-     * "/damashiuchi"で表示する。
+     * "（ドメイン名）/"で表示する。
      * @param model
      * @return templates/index.html
      */
